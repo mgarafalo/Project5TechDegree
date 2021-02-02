@@ -2,10 +2,7 @@ window.addEventListener('load', function() {
     baguetteBox.run('.gallery');
   });
 
-// var search = new Filter('search', 'data-caption');
-
 document.getElementById('search').addEventListener("keyup", searchFilter);
-
 
 function searchFilter() {
     var searchInput = document.getElementById('search'); //sets input variabnle to the search box
